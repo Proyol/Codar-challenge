@@ -1,0 +1,7 @@
+.dark-mode {
+    background-color: #212121;
+}
+
+.dark-mode header strong span, .dark-mode a, .dark-mode #info p, .dark-mode .list_info, .dark-mode .cellphone p {
+    color: #fff;
+}

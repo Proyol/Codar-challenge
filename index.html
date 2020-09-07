@@ -2,12 +2,23 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./slider_button.css">
+    <link rel="stylesheet" href="./darkmode.css">
 </head>
 
 <body>
     <header>
-        <strong><i>Codar</i> <span>.</span></strong>
+        <strong>
+            <i>
+                Codar
+            </i>
+            <span>.</span>
+            <label class="switch">
+                <input id="slider-checkbox" type="checkbox" onchange="darkMode()">
+                <span class="slider round"></span>
+            </label>
+        </strong>
         <section>
             <a href="/">Contato</a>
             <a href="/">Serviço</a>
@@ -27,7 +38,7 @@
                         <button>Solicitar orçamento</button>
                 </div>
             </section>
-    
+
             <section class="list">
                 <div class="list_info">
                     <div><img src="./assets/check-circle.svg" alt="">Domínio pesonalizado</div>
@@ -39,11 +50,11 @@
                 </div>
                 <img src="./assets/coding_.png" alt="programando">
             </section>
-    
+
             <section class="cellphone">
                 <p>Nossa equipe está à sua disposição!</p>
                 <div>
-                    <input type="tel" placeholder="Celular"/>
+                    <input type="tel" placeholder="Celular" />
                     <button>Ligamos para você</button>
                 </div>
             </section>
@@ -53,7 +64,8 @@
             <div>
                 <img src="./assets/circle.svg" alt="">
                 <div class="depoinment_container">
-                    <p class="depoinment_text">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
+                    <p class="depoinment_text">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra
+                        de dúvidas superior em todos os aspectos.</p>
                     <p class="depoinment_autor">Pedro Ferreira</p>
                     <p class="depoinment_job">Construtora Minari</p>
                 </div>
@@ -61,7 +73,8 @@
             <div>
                 <img src="./assets/circle.svg" alt="">
                 <div class="depoinment_container">
-                    <p class="depoinment_text">Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
+                    <p class="depoinment_text">Processos bem simples e criação de um site exatamente como a minha escola
+                        queria!</p>
                     <p class="depoinment_autor">Maria Rita</p>
                     <p class="depoinment_job">Escola Criança Feliz</p>
                 </div>
@@ -74,7 +87,7 @@
             <strong><i>Codar.</i></strong>
             <p>Criamos websites incríveis</p>
         </section>
-        <section >
+        <section>
             <strong class="footer_header">Sobre</strong>
             <p>Amamos criar soluções e entregar sites incríveis</p>
         </section>
@@ -96,5 +109,6 @@
         </section>
     </footer>
 </body>
+<script src="./darkmode.js"></script>
 
 </html>
